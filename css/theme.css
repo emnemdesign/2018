@@ -1,0 +1,28 @@
+:root {
+  /* Primary */
+  --color-purple: #243d86;
+  --color-teal: #19aeab;
+
+  /* Secondary */
+  --color-cobalt: #243d86;
+  --color-gold: #eec515;
+
+  /* Typography */
+  --color-text: #111;
+}
+
+.purple {
+  color: var(--color-purple);
+}
+
+.teal {
+  color: var(--color-teal);
+}
+
+.cobalt {
+  color: var(--color-cobalt);
+}
+
+.gold {
+  color: var(--color-gold);
+}

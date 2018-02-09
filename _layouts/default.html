@@ -28,8 +28,31 @@
 </head>
 <body>
 
-  <nav role="navigation">
-
+  <nav class="nav text-upper" role="navigation">
+    <div class="grid grid-middle wrapper gutter">
+      <div class="unit s-1 m-1-4">
+        <a class="ib island-1-2" href="{{site.baseurl}}/" rel="home">
+          {% if page.url == '/' %}
+            <h1 class="push-0 micro">
+              <span class="visually-hidden">Reboot</span>
+              <i class="icon i-32 purple"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
+            </h1>
+          {% else %}
+            <strong class="push-0 micro block">
+              <span class="visually-hidden">Reboot</span>
+              <i class="icon i-32 purple"><svg><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
+            </strong>
+          {% endif %}
+        </a>
+      </div>
+      <div class="unit s-1 m-3-4">
+        <ul class="list-group-inline push-0 text-left-right">
+          <li><a class="ib island-1-2 teal" href="#about">About</a></li>
+          <li><a class="ib island-1-2 teal" href="#about">Designers</a></li>
+          <li><a class="ib island-1-2 teal" href="#about">Profs</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <main role="main">

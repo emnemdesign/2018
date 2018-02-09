@@ -2,4 +2,19 @@ html {
   min-width: 320px;
 
   font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+}
+
+@media only screen and (min-width: 46em) {
+
+  .text-left-right {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+
+
 }
