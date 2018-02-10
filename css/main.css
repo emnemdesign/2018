@@ -5,6 +5,10 @@ html {
   color: var(--color-text);
 }
 
+svg {
+  color: #000;
+}
+
 /* Style the focus state */
 
 a:focus,
