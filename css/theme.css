@@ -1,11 +1,14 @@
 :root {
-  /* Primary */
+  /* Primary colours*/
   --color-purple: #243d86;
   --color-teal: #19aeab;
 
-  /* Secondary */
+  /* Secondary colours*/
   --color-cobalt: #243d86;
   --color-gold: #eec515;
+
+  /* Focus state */
+  --color-focus: rgba(25, 174, 171, .5);
 
   /* Typography */
   --color-text: #111;

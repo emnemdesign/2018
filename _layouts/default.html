@@ -28,9 +28,9 @@
 </head>
 <body>
 
-  <nav class="nav text-upper" role="navigation">
-    <div class="grid grid-middle wrapper gutter">
-      <div class="unit s-1 m-1-4">
+  <header>
+    <div class="grid grid-stretch wrapper gutter">
+      <div class="unit xs-1 s-1-4 logo text-center">
         <a class="ib island-1-2" href="{{site.baseurl}}/" rel="home">
           {% if page.url == '/' %}
             <h1 class="push-0 micro">
@@ -45,13 +45,13 @@
           {% endif %}
         </a>
       </div>
-      <div class="unit s-1 m-3-4">
-        <ul class="list-group-inline push-0 text-left-right">
-          <li><a class="ib island-1-2 teal" href="#about">About</a></li>
-          <li><a class="ib island-1-2 teal" href="#about">Designers</a></li>
-          <li><a class="ib island-1-2 teal" href="#about">Profs</a></li>
+      <nav class="unit xs-1 s-3-4 nav text-center" role="navigation">
+        <ul class="list-group-inline h-1 push-0 text-upper bold milli teal">
+          <li class="push-r-1-2 h-1"><a class="ib h-1 island-1-2 teal" href="#about"><span class="valign-middle">About</span></a></li>
+          <li class="push-r-1-2 h-1"><a class="ib h-1 island-1-2 teal" href="#about"><span class="valign-middle">Designers</span></a></li>
+          <li class="h-1"><a class="ib h-1 island-1-2 teal" href="#about"><span class="valign-middle">Profs</span></a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </nav>
 
