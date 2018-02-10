@@ -5,6 +5,8 @@ html {
   color: var(--color-text);
 }
 
+/* Style the focus state */
+
 a:focus,
 [tabindex="0"]:focus,
 details:focus,
@@ -20,10 +22,13 @@ a:focus, [tabindex="0"]:focus {
   outline-offset: 1px;
 }
 
-@media only screen and (min-width: 38em) {
-
-  .text-left-right {
-    text-align: right;
-  }
-
+a:active,
+[tabindex="0"]:active,
+details:active,
+summary:active,
+input:active,
+textarea:active,
+button:active,
+select:active {
+  outline: none;
 }
