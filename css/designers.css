@@ -1,0 +1,39 @@
+.designers li a {
+  color: #fff;
+  overflow: hidden;
+}
+
+.name {
+  margin-bottom: calc(1.3rem + .325rem);
+  margin-left: calc(1.3rem + .325rem);
+}
+
+.border {
+  border: .65rem solid #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .name {
+    margin-bottom: calc(1.4rem + .35rem);
+    margin-left: calc(1.4rem + .35rem);
+  }
+
+  .border {
+    border-width: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    margin-bottom: calc(1.5rem + .375rem);
+    margin-left: calc(1.5rem + .375rem);
+  }
+
+  .border {
+    border-width: .75rem;
+  }
+
+}
