@@ -1,3 +1,7 @@
+.header {
+  border-bottom: 1px solid #f5f5f5;
+}
+
 .header a:focus {
   outline-offset: -7px;
 }

@@ -36,7 +36,3 @@ button:active,
 select:active {
   outline: none;
 }
-
-.wrapper {
-  max-width: 90em;
-}
