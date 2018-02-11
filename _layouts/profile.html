@@ -1,0 +1,82 @@
+---
+layout: default
+meta:
+---
+
+<article>
+  <div class="grid wrapper pad-t pad-b-2">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
+      <div class="embed embed-1by1">
+        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.profile-img}}" alt="page.{{profile-alt}}">
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-4">
+      <h1>{{page.first-name}}<br>{{page.last-name}}</h1>
+      <p>{{page.specialization}}</p>
+      <p>{{page.bio}}</p>
+      <a href="mailto:{{page.mailto}}">{{page.email}}</a>
+      <a href="{{page.website-link}}">{{page.website}}</a>
+      <div class="social-profile-links block">
+        {% if page.behance-link %}
+          <a class="icon i-32 push-r" href="{{page.behance-link}}" aria-label="Behance">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#behance" />
+            </svg>
+          </a>
+        {% endif %}
+        {% if page.vimeo-link %}
+          <a class="icon i-32 push-r" href="{{page.vimeo-link}}" aria-label="Vimeo">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#vimeo" />
+            </svg>
+          </a>
+        {% endif %}
+        {% if page.instagram-link %}
+          <a class="icon i-32 push-r" href="{{page.instagram-link}}" aria-label="Instgram">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#instagram" />
+            </svg>
+          </a>
+        {% endif %}
+        {% if page.linkedin-link %}
+          <a class="icon i-32 push-r" href="{{page.linkedin-link}}" aria-label="LinkedIn">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#linkedin" />
+            </svg>
+          </a>
+        {% endif %}
+        {% if page.github-link %}
+          <a class="icon i-32 push-r" href="{{page.github-link}}" aria-label="Github">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#github" />
+            </svg>
+          </a>
+        {% endif %}
+        {% if page.dribbble-link %}
+          <a class="icon i-32 push-r" href="{{page.dribbble-link}}" aria-label="Dribbble">
+            <svg>
+              <use xlink:href="{{site.baseurl}}/images/icons.svg#dribbble" />
+            </svg>
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div class="wrapper gutter-1-4">
+    <div class="pad-t">
+      <div class="embed embed-16by9">
+        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-1}}" alt="{{page.portfolio-img-alt-1}}">
+      </div>
+    </div>
+    <div class="pad-t">
+      <div class="embed embed-16by9">
+        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-2}}" alt="{{page.portfolio-img-alt-2}}">
+      </div>
+    </div>
+    <div class="pad-t pad-b-2">
+      <div class="embed embed-16by9">
+        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-3}}" alt="{{page.portfolio-img-alt-3}}">
+      </div>
+    </div>
+  </div>
+</article>
