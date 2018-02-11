@@ -11,53 +11,53 @@ meta:
       </div>
       <div class="white-frame absolute pin-center"></div>
     </div>
-    <div class="unit xs-1 s-1 m-1 l-1-2 island-1-4">
+    <div id="data-creator" itemprop="creator" itemscope itemtype="https://schema.org/Person" class="unit xs-1 s-1 m-1 l-1-2 island-1-4">
       <div class="color-frame island-1-2">
-        <h1 class="purple bold yotta push-1-8">{{page.first-name}}<br>{{page.last-name}}</h1>
+        <h1 class="purple bold yotta push-1-8"><span itemprop="givenName">{{page.first-name}}</span><br><span familyName>{{page.last-name}}</span></h1>
         <p class="bio purple push-1-2">{{page.specialization}}</p>
-        <p class="teal milli">{{page.bio}}</p>
+        <p itemprop="description" class="teal milli">{{page.bio}}</p>
         <div class="pad-b-1-2">
-          <a class="block" href="mailto:{{page.mailto}}">{{page.email}}</a>
-          <a href="{{page.website-link}} teal">{{page.website}}</a>
+          <a itemprop="email" class="block" href="mailto:{{page.mailto}}">{{page.email}}</a>
+          <a itemprop="url" href="{{page.website-link}} teal">{{page.website}}</a>
         </div>
         <div class="social-profile-links block">
           {% if page.behance-link %}
-            <a class="icon i-24 push-r" href="{{page.behance-link}}" aria-label="Behance">
+            <a itemprop="sameAs" class="icon i-24 push-r" href="{{page.behance-link}}" aria-label="Behance">
               <svg>
                 <use xlink:href="{{site.baseurl}}/images/icons.svg#behance" />
               </svg>
             </a>
           {% endif %}
           {% if page.vimeo-link %}
-            <a class="icon i-24 push-r" href="{{page.vimeo-link}}" aria-label="Vimeo">
+            <a itemprop="sameAs" class="icon i-24 push-r" href="{{page.vimeo-link}}" aria-label="Vimeo">
               <svg>
                 <use xlink:href="{{site.baseurl}}/images/icons.svg#vimeo" />
               </svg>
             </a>
           {% endif %}
           {% if page.instagram-link %}
-            <a class="icon i-24 push-r" href="{{page.instagram-link}}" aria-label="Instgram">
+            <a itemprop="sameAs" class="icon i-24 push-r" href="{{page.instagram-link}}" aria-label="Instgram">
               <svg>
                 <use xlink:href="{{site.baseurl}}/images/icons.svg#instagram" />
               </svg>
             </a>
           {% endif %}
           {% if page.linkedin-link %}
-            <a class="icon i-24 push-r" href="{{page.linkedin-link}}" aria-label="LinkedIn">
+            <a itemprop="sameAs" class="icon i-24 push-r" href="{{page.linkedin-link}}" aria-label="LinkedIn">
               <svg>
                 <use xlink:href="{{site.baseurl}}/images/icons.svg#linkedin" />
               </svg>
             </a>
           {% endif %}
           {% if page.github-link %}
-            <a class="icon i-24 push-r" href="{{page.github-link}}" aria-label="Github">
+            <a itemprop="sameAs" class="icon i-24 push-r" href="{{page.github-link}}" aria-label="Github">
               <svg>
                 <use xlink:href="{{site.baseurl}}/images/icons.svg#github" />
               </svg>
             </a>
           {% endif %}
           {% if page.dribbble-link %}
-            <a class="icon i-24 push-r" href="{{page.dribbble-link}}" aria-label="Dribbble">
+            <a itemprop="sameAs" class="icon i-24 push-r" href="{{page.dribbble-link}}" aria-label="Dribbble">
               <svg>
                 <use xlink:href="{{site.baseurl}}/images/icons.svg#dribbble" />
               </svg>
@@ -67,20 +67,20 @@ meta:
       </div>
     </div>
   </div>
-  <div class="wrapper gutter-1-4">
+  <div itemref="data-creator" itemscope itemtype="http://schema.org/CreativeWork" class="wrapper gutter-1-4" >
     <div class="pad-t-1-2">
       <div class="embed embed-16by9">
-        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-1}}" alt="{{page.portfolio-img-alt-1}}">
+        <img itemprop="image" class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-1}}" alt="{{page.portfolio-img-alt-1}}">
       </div>
     </div>
     <div class="pad-t-1-2">
       <div class="embed embed-16by9">
-        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-2}}" alt="{{page.portfolio-img-alt-2}}">
+        <img itemprop="image" class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-2}}" alt="{{page.portfolio-img-alt-2}}">
       </div>
     </div>
     <div class="pad-t-1-2 pad-b-2">
       <div class="embed embed-16by9">
-        <img class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-3}}" alt="{{page.portfolio-img-alt-3}}">
+        <img itemprop="image" class="embed-item img-flex" src="{{site.baseurl}}/{{page.portfolio-img-3}}" alt="{{page.portfolio-img-alt-3}}">
       </div>
     </div>
   </div>
