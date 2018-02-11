@@ -36,3 +36,35 @@ button:active,
 select:active {
   outline: none;
 }
+
+/* profile page */
+
+.profile-page h1,
+.bio {
+  text-transform: uppercase;
+}
+
+.color-frame {
+  border: 20px solid #253d87;
+  border-image-source: linear-gradient(-45deg, #1aadac, #253d87);
+  border-image-slice: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.white-frame {
+  border: 15px solid #fff;
+  height: 90%;
+  width: 90%;
+}
+
+a {
+  color: var(--color-teal);
+  text-decoration: none;
+  transition: all 250ms linear;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-purple);
+}
