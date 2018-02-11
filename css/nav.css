@@ -1,0 +1,43 @@
+.header {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.header a:focus {
+  outline-offset: -7px;
+}
+
+.nav a {
+  display: table;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #169895;
+}
+
+.nav a:active {
+  color: #13817f;
+}
+
+.nav span {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .header,
+  .nav a {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+}

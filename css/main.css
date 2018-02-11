@@ -1,0 +1,38 @@
+html {
+  min-width: 320px;
+
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+}
+
+svg {
+  color: #000;
+}
+
+/* Style the focus state */
+
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline-color: var(--color-focus);
+}
+
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 1px;
+}
+
+a:active,
+[tabindex="0"]:active,
+details:active,
+summary:active,
+input:active,
+textarea:active,
+button:active,
+select:active {
+  outline: none;
+}
