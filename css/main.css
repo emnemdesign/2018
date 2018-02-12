@@ -36,3 +36,41 @@ button:active,
 select:active {
   outline: none;
 }
+
+/* profile page */
+
+.profile-page h1,
+.special {
+  text-transform: uppercase;
+}
+
+.special {
+  border-bottom: 3px solid var(--color-purple);
+  border-image-source: linear-gradient(-45deg, var(--color-teal), var(--color-purple));
+  border-image-slice: 1;
+}
+
+.color-frame {
+  border: 20px solid var(--color-purple);;
+  border-image-source: linear-gradient(-45deg, var(--color-teal), var(--color-purple));
+  border-image-slice: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.white-frame {
+  border: 15px solid #fff;
+  height: 90%;
+  width: 90%;
+}
+
+.profile-page a {
+  color: #000;
+  text-decoration: none;
+  transition: all 250ms linear;
+}
+
+.profile-page a:hover,
+.profile-page a:focus {
+  color: var(--color-teal);
+}
