@@ -13,12 +13,12 @@ meta:
     </div>
     <div id="data-creator" itemprop="creator" itemscope itemtype="https://schema.org/Person" class="unit xs-1 s-1 m-1 l-1-2 island-1-4">
       <div class="color-frame island-1-2">
-        <h1 class="purple bold yotta push-1-8"><span itemprop="givenName">{{page.first-name}}</span><br><span familyName>{{page.last-name}}</span></h1>
-        <p class="bio purple push-1-2">{{page.specialization}}</p>
-        <p itemprop="description" class="teal milli">{{page.bio}}</p>
+        <h1 class="purple bold push-1-8"><span itemprop="givenName">{{page.first-name}}</span><br><span familyName>{{page.last-name}}</span></h1>
+        <p class="special teal push-1-2 pad-b-1-2 bold">{{page.specialization}}</p>
+        <p itemprop="description" class="bio teal milli push-1-2">{{page.bio}}</p>
         <div class="pad-b-1-2">
-          <a itemprop="email" class="block" href="mailto:{{page.mailto}}">{{page.email}}</a>
-          <a itemprop="url" href="{{page.website-link}} teal">{{page.website}}</a>
+          <a itemprop="email" class="block milli" href="mailto:{{page.mailto}}">{{page.email}}</a>
+          <a itemprop="url" class="milli" href="{{page.website-link}}">{{page.website}}</a>
         </div>
         <div class="social-profile-links block">
           {% if page.behance-link %}
