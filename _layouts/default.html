@@ -31,15 +31,13 @@
   <header class="header pad-t-1-2 pad-b-1-2">
     <div class="grid grid-stretch wrapper gutter-1-2">
       <div class="unit xs-1 s-1-4 logo text-center">
-        <a class="ib island-1-2" href="{{site.baseurl}}/" rel="home">
+        <a class="ib island-1-2" href="{{site.baseurl}}/" rel="home" aria-label="Reboot">
           {% if page.url == '/' %}
             <h1 class="push-0 micro">
-              <span class="visually-hidden">Reboot</span>
               <i class="icon i-32"><svg class="purple"><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
             </h1>
           {% else %}
             <strong class="push-0 micro block">
-              <span class="visually-hidden">Reboot</span>
               <i class="icon i-32"><svg class="purple"><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
             </strong>
           {% endif %}
