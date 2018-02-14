@@ -1,7 +1,9 @@
 ---
 
 layout: profile
-meta:
+
+title: Zach Smith - Reboot
+description:
 
 portrait: https://placehold.it/512x512
 first-name: Zach
