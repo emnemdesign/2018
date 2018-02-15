@@ -63,11 +63,21 @@
     </div>
   </header>
 
-  <main role="main">
+  <main class="wrapper" role="main">
     {{ content }}
   </main>
 
   {% include footer.html %}
 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/modernizr.custom.97074.js"></script>
+  <script type="text/javascript" src="{{site.baseurl}}/js/jquery.hoverdir.js"></script>
+  <script type="text/javascript">
+    $(function() {
+
+      $(' #designers > li ').each( function() { $(this).hoverdir(); } );
+
+    });
+  </script>
 </body>
 </html>
