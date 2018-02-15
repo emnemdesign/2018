@@ -5,8 +5,16 @@ html {
   color: var(--color-text);
 }
 
-svg {
-  color: #000;
+.social-icon {
+  color: #757575;
+}
+
+.social-icon:hover {
+  color: #616161;
+}
+
+.social-icon:active {
+  color: #424242;
 }
 
 /* Style the focus state */
