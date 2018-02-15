@@ -22,7 +22,7 @@
   // the options
   $.HoverDir.defaults = {
     speed : 200,
-    easing : 'ease-out',
+    easing : 'cubic-bezier(0.645, 0.045, 0.355, 1)',
     hoverDelay : 0,
     inverse : false
   };
