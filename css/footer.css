@@ -1,0 +1,11 @@
+.footer .i-social {
+  color: #757575;
+}
+
+.footer .i-social:hover {
+  color: #616161;
+}
+
+.footer .i-social:active {
+  color: #424242;
+}
