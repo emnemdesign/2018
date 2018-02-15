@@ -4,8 +4,9 @@
 {% include_relative modules.css %}
 {% include_relative grid.css %}
 {% include_relative type.css %}
-{% include_relative main.css %}
 {% include_relative theme.css %}
+{% include_relative main.css %}
 {% include_relative nav.css %}
 {% include_relative footer.css %}
+{% include_relative profile.css %}
 

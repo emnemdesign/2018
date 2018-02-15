@@ -1,2 +1,7 @@
 permalink: pretty
 baseurl: "/2018"
+
+collections:
+  designers:
+    output: true
+    permalink: /designers/:path/

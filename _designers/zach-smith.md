@@ -1,17 +1,20 @@
 ---
-layout: profile
-meta:
 
-profile-img: images/placeholder-1by1.svg
-profile-alt:
+layout: profile
+
+title: Zach Smith
+description:
+
+portrait: https://placehold.it/512x512
 first-name: Zach
 last-name: Smith
 specialization: Motion, Branding
 bio: Motion designer extraordinaire and animal rights activist! I love making people smile with my creations, and pride myself on my resourcefulness to learn and explore new techniques.
-mailto: zachsmith@design.com
+
 email: zachsmith@design.com
-website-link: http://zachsmith.ca/
+mailto: zachsmith@design.com
 website: zachsmith.ca
+website-link: http://zachsmith.ca/
 
 behance-link: https://www.behance.net/zachsmith
 vimeo-link: https://vimeo.com/zachsmith
@@ -20,10 +23,11 @@ linkedin-link: https://www.linkedin.com/in/zach-smith/
 github-link: https://github.com/zachsmith
 dribbble-link: https://dribbble.com/zachsmith
 
-portfolio-img-1: images/placeholder-16by9.svg
-portfolio-img-alt-1:
-portfolio-img-2: images/placeholder-16by9.svg
-portfolio-img-alt-2:
-portfolio-img-3: images/placeholder-16by9.svg
-portfolio-img-alt-3:
+piece-1: https://placehold.it/2560x1440
+piece-1-alt:
+piece-2: https://placehold.it/2560x1440
+piece-2-alt:
+piece-3: https://placehold.it/2560x1440
+piece-3-alt:
+
 ---
