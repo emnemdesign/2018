@@ -16,8 +16,8 @@
 }
 
 .nav span {
-  display:table-cell;
-  vertical-align:middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media only screen and (min-width: 25em) {
