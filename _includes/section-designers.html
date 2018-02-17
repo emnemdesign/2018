@@ -1,17 +1,18 @@
 <section id="designers">
   {% include section-header.html title="Designers" %}
   <ol class="designers grid list-group l-gutter" id="designers">
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
-    {% include designer-unit.html name="Jonathan A." %}
+    {% for designer in site.designers %}
+      <li class="unit xs-1-2 m-1-3 l-1-4 xl-1-6 relative">
+        <a class="designer-link block relative" href="{{site.baseurl}}/designers/{{ designer.name | replace: ' ', '-' | downcase }}">
+          <div class="embed embed-1by1">
+            <img class="embed-item" src="https://placehold.it/512x512" alt="" />
+          </div>
+          <strong class="name pin-bl milli text-upper bold">{{designer.first_name}} {{designer.last_name | slice: 0 }}</strong>
+          <div class="border-container absolute h-1 w-1 island-1-2">
+            <span class="ib border h-1 w-1"></span>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
   </ol>
 </section>

@@ -8,50 +8,50 @@
 
   <div class="unit xs-1 s-1 m-1 l-1-2 island-1-4" id="data-creator" itemprop="creator" itemscope itemtype="https://schema.org/Person">
     <div class="color-frame island-1-2">
-      <h1 class="purple bold push-1-8"><span itemprop="givenName">{{page.first-name}}</span><br><span familyName>{{page.last-name}}</span></h1>
+      <h1 class="purple bold push-1-8"><span itemprop="givenName">{{page.first_name}}</span><br><span familyName>{{page.last_name}}</span></h1>
       <p class="special teal push-1-2 pad-b-1-2 bold">{{page.specialization}}</p>
       <p itemprop="description" class="bio teal milli push-1-2">{{page.bio}}</p>
       <div class="push-1-2">
         <a itemprop="email" class="block milli" href="mailto:{{page.mailto}}">{{page.email}}</a>
-        <a itemprop="url" class="milli" href="{{page.website-link}}">{{page.website}}</a>
+        <a itemprop="url" class="milli" href="http://{{page.website}}">{{page.website}}</a>
       </div>
       <ul class="list-group-inline push-0 social-profile-links block">
-        {% if page.behance-link %}
+        {% if page.behance_link %}
           <li class="push-r">
             <a itemprop="sameAs" class="icon i-24" href="{{page.behance-link}}" aria-label="Behance">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#behance" /></svg>
             </a>
           </li>
         {% endif %}
-        {% if page.vimeo-link %}
+        {% if page.vimeo_link %}
           <li class="push-r">
             <a itemprop="sameAs" class="icon i-24" href="{{page.vimeo-link}}" aria-label="Vimeo">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#vimeo" /></svg>
             </a>
           </li>
         {% endif %}
-        {% if page.instagram-link %}
+        {% if page.instagram_link %}
           <li class="push-r">
             <a itemprop="sameAs" class="icon i-24" href="{{page.instagram-link}}" aria-label="Instgram">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#instagram" /></svg>
             </a>
           </li>
         {% endif %}
-        {% if page.linkedin-link %}
+        {% if page.linkedin_link %}
           <li class="push-r">
             <a itemprop="sameAs" class="icon i-24" href="{{page.linkedin-link}}" aria-label="LinkedIn">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#linkedin" /></svg>
             </a>
           </li>
         {% endif %}
-        {% if page.github-link %}
+        {% if page.github_link %}
           <li class="push-r">
             <a itemprop="sameAs" class="icon i-24" href="{{page.github-link}}" aria-label="Github">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#github" /></svg>
             </a>
           </li>
         {% endif %}
-        {% if page.dribbble-link %}
+        {% if page.dribbble_link %}
           <li class="push-r">
             <a itemprop="sameAs" class="icon i-24" href="{{page.dribbble-link}}" aria-label="Dribbble">
               <svg><use xlink:href="{{site.baseurl}}/images/icons.svg#dribbble" /></svg>
