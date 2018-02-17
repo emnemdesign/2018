@@ -2,7 +2,13 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{page.title}} · {% endif %}Reboot</title>
+  <title>
+    {% if page.url == '/' %}
+      Reboot · 2018 Algonquin Design Grads
+    {% else %}
+      {{page.name}} · Reboot
+    {% endif %}
+  </title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta property="og:title" content="Reboot">
   <meta property="og:description" content="{{page.description}}">
@@ -75,7 +81,7 @@
   <script type="text/javascript">
     $(function() {
 
-      $(' #designers > li ').each( function() { $(this).hoverdir(); } );
+      $(' #designers-list > li ').each( function() { $(this).hoverdir(); } );
 
     });
   </script>
