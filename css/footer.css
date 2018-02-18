@@ -1,11 +1,11 @@
 .footer .i-social {
-  color: #757575;
+  color: #9E9E9E;
 }
 
 .footer .i-social:hover {
-  color: #616161;
+  color: #757575;
 }
 
 .footer .i-social:active {
-  color: #424242;
+  color: #616161;
 }
