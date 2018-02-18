@@ -34,39 +34,37 @@
 </head>
 <body>
 
-  <header class="header pad-t-1-2 pad-b-1-2">
-    <div class="grid grid-stretch wrapper gutter-1-2">
-      <div class="unit xs-1 s-1-4 logo text-center">
-        <a class="ib island-1-2" href="{{site.baseurl}}/" rel="home" aria-label="Reboot">
-          {% if page.url == '/' %}
-            <h1 class="push-0 micro">
-              <i class="icon i-32"><svg class="purple"><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
-            </h1>
-          {% else %}
-            <strong class="push-0 micro block">
-              <i class="icon i-32"><svg class="purple"><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
-            </strong>
-          {% endif %}
-        </a>
-      </div>
-      {% if page.url == '/' %}
-        <nav class="unit xs-1 s-3-4 nav text-center" role="navigation">
-          <ul class="list-group-inline h-1 push-0 text-upper bold micro teal">
-            <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="#about" aria-label="About"><span>About</span></a></li>
-            <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="#designers" aria-label="Designers"><span>Designers</span></a></li>
-            <li class="h-1"><a class="ib h-1 island-1-2 teal" href="#profs" aria-label="Professors"><span>Profs</span></a></li>
-          </ul>
-        </nav>
-      {% else %}
-        <nav class="unit xs-1 s-3-4 nav text-center" role="navigation">
-          <ul class="list-group-inline h-1 push-0 text-upper bold micro teal">
-            <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/andreane-labrosse/' %}{{site.baseurl}}/designers/victoria-doherty/{% else %}{{page.previous.url}}{% endif %}" aria-label="Previous"><span>Prev</span></a></li>
-            <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="" aria-label="Home"><span>Home</span></a></li>
-            <li class="h-1"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/victoria-doherty/' %}{{site.baseurl}}/designers/andreane-labrosse/{% else %}{{page.next.url}}{% endif %}" aria-label="Next"><span>Next</span></a></li>
-          </ul>
-        </nav>
-      {% endif %}
+  <header class="header grid grid-stretch wrapper island-1-2" role="banner">
+    <div class="unit xs-1 s-1-4 logo text-center">
+      <a class="ib island-1-2" href="{{site.baseurl}}/" rel="home" aria-label="Reboot">
+        {% if page.url == '/' %}
+          <h1 class="push-0 micro">
+            <i class="icon i-32"><svg class="purple"><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
+          </h1>
+        {% else %}
+          <strong class="push-0 micro block">
+            <i class="icon i-32"><svg class="purple"><use xlink:href="{{site.baseurl}}/images/icons.svg#reboot" /></svg></i>
+          </strong>
+        {% endif %}
+      </a>
     </div>
+    {% if page.url == '/' %}
+      <nav class="unit xs-1 s-3-4 nav text-center" role="navigation">
+        <ul class="list-group-inline h-1 push-0 text-upper bold micro teal">
+          <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="#about" aria-label="About"><span>About</span></a></li>
+          <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="#designers" aria-label="Designers"><span>Designers</span></a></li>
+          <li class="h-1"><a class="ib h-1 island-1-2 teal" href="#profs" aria-label="Professors"><span>Profs</span></a></li>
+        </ul>
+      </nav>
+    {% else %}
+      <nav class="unit xs-1 s-3-4 nav text-center" role="navigation">
+        <ul class="list-group-inline h-1 push-0 text-upper bold micro teal">
+          <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/andreane-labrosse/' %}{{site.baseurl}}/designers/victoria-doherty/{% else %}{{page.previous.url}}{% endif %}" aria-label="Previous"><span>Prev</span></a></li>
+          <li class="h-1 push-r-1-2"><a class="ib h-1 island-1-2 teal" href="{{site.baseurl}}/" aria-label="Home"><span>Home</span></a></li>
+          <li class="h-1"><a class="ib h-1 island-1-2 teal" href="{% if page.url == '/designers/victoria-doherty/' %}{{site.baseurl}}/designers/andreane-labrosse/{% else %}{{page.next.url}}{% endif %}" aria-label="Next"><span>Next</span></a></li>
+        </ul>
+      </nav>
+    {% endif %}
   </header>
 
   <main class="wrapper" role="main">
