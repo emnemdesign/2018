@@ -1,4 +1,4 @@
-<ul itemref="data-creator" itemscope itemtype="http://schema.org/CreativeWork" class="wrapper list-group">
+<ul itemref="data-creator" itemscope itemtype="http://schema.org/CreativeWork" class="profile-gallery list-group push-0">
   {% if page.piece-1 %}
     <li class="push-1-2">
       <div class="embed embed-16by9">
@@ -17,6 +17,13 @@
     <li class="push-1-2">
       <div class="embed embed-16by9">
         <img itemprop="image" class="embed-item" src="{{page.piece-3}}" alt="{{page.piece-3-alt}}">
+      </div>
+    </li>
+  {% endif %}
+  {% if page.piece-4 %}
+    <li class="push-1-2">
+      <div class="embed embed-16by9">
+        <img itemprop="image" class="embed-item" src="{{page.piece-4}}" alt="{{page.piece-4-alt}}">
       </div>
     </li>
   {% endif %}

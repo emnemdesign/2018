@@ -1,35 +1,32 @@
-.profile-page h1,
-.special {
-  text-transform: uppercase;
+.profile-topper-info {
+  background-color: #243d86;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23243d86' width='11' height='11'/%3E%3Crect fill='%23203f88' x='10' width='11' height='11'/%3E%3Crect fill='%231b418a' y='10' width='11' height='11'/%3E%3Crect fill='%2315448c' x='20' width='11' height='11'/%3E%3Crect fill='%230d468e' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23014890' y='20' width='11' height='11'/%3E%3Crect fill='%23004a92' x='30' width='11' height='11'/%3E%3Crect fill='%23004c94' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23004f95' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23005197' y='30' width='11' height='11'/%3E%3Crect fill='%23005398' x='40' width='11' height='11'/%3E%3Crect fill='%2300559a' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2300579b' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2300599d' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23005b9e' y='40' width='11' height='11'/%3E%3Crect fill='%23005d9f' x='50' width='11' height='11'/%3E%3Crect fill='%23005fa1' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%230061a2' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%230063a3' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%230065a4' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%230067a5' y='50' width='11' height='11'/%3E%3Crect fill='%230069a6' x='60' width='11' height='11'/%3E%3Crect fill='%23006ba7' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23006da7' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23006fa8' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%230071a9' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%230073aa' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%230075aa' x='70' width='11' height='11'/%3E%3Crect fill='%230077ab' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%230079ab' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23007aac' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23007cac' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23007eac' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%230080ad' x='80' width='11' height='11'/%3E%3Crect fill='%230082ad' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%230084ad' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%230086ae' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%230088ae' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%230089ae' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23008bae' x='90' width='11' height='11'/%3E%3Crect fill='%23008dae' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23008fae' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%230091ae' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%230092ae' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%230094ae' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%230096ae' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%230098ae' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23009aae' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23009bad' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23009dad' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23009fad' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%2300a0ad' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%2300a2ad' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%2300a4ac' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2300a6ac' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2300a7ac' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2300a9ac' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%2300abac' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%230bacab' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%2319aeab' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: top left;
+
+  color: #fff;
+}
+
+.portrait {
+  object-fit: cover;
 }
 
 .special {
-  border-bottom: 3px solid var(--color-purple);
-  border-image-source: linear-gradient(-45deg, var(--color-teal), var(--color-purple));
-  border-image-slice: 1;
+  border-bottom: 3px solid #fff;
 }
 
-.color-frame {
-  border: 20px solid var(--color-purple);;
-  border-image-source: linear-gradient(-45deg, var(--color-teal), var(--color-purple));
-  border-image-slice: 1;
-  height: 100%;
-  width: 100%;
-}
-
-.white-frame {
-  border: 15px solid #fff;
-  height: 90%;
-  width: 90%;
-}
-
-.profile-page a {
-  color: #000;
+.profile-topper a {
+  color: #fff;
   text-decoration: none;
-  transition: all 250ms linear;
+
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.profile-page a:hover,
-.profile-page a:focus {
-  color: var(--color-teal);
+.profile-topper a:hover {
+  opacity: .65;
+}
+
+.profile-topper .social-links li:last-child,
+.profile-gallery li:last-child {
+  margin: 0;
 }
