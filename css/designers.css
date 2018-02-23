@@ -19,6 +19,26 @@
   z-index: 1000;
 }
 
+/* Filter */
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='%2319aeab' d='M7.4 8.6l4.6 4.6 4.6-4.6L18 10l-6 6-6-6z'/%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3C/svg%3E");
+  background-size: 24px;
+  border: 1px solid var(--color-teal);
+  border-radius: 4px;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-focus);
+}
+
+/* Pixelate */
+.parent canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   .name {

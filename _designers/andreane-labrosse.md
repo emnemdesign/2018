@@ -4,6 +4,9 @@ name: Andreane Labrosse
 first_name: Andreane
 last_name: Labrosse
 specialization: Branding, Print
+specialty:
+  - branding
+  - print
 email: design@andreane-labrosse.ca
 website: andreane-labrosse.ca
 behance_link: https://www.behance.net/AndreaneLabrosse

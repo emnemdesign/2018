@@ -1,11 +1,25 @@
 <section class="push-2" id="designers">
   {% include section-header.html title="Designers" %}
+
+  <div class="gutter push max-length-no-center">
+    <label class="text-upper bold micro teal push-1-8" for="filter">Specialty</label>
+    <select class="milli" id="select-specialty">
+      <option value="option-all">All</option>
+      <option value="option-branding">Branding</option>
+      <option value="option-illustration">Illustration</option>
+      <option value="option-motion">Motion</option>
+      <option value="option-print">Print</option>
+      <option value="option-ux-ui">UX/UI</option>
+      <option value="option-web">Web</option>
+    </select>
+  </div>
+
   <ol class="designers grid list-group l-gutter" id="designers-list">
     {% for designer in site.designers %}
-      <li class="unit xs-1-2 m-1-3 l-1-4 xl-1-6 relative">
+      <li class="designer unit xs-1-2 m-1-3 l-1-4 xl-1-6 relative" data-category="{{designer.specialty[0]}} {{designer.specialty[1]}}">
         <a class="designer-link block relative" href="{{site.baseurl}}/designers/{{ designer.name | replace: ' ', '-' | downcase }}">
           <div class="embed embed-1by1">
-            <img class="embed-item" src="https://placehold.it/512x512" alt="" />
+            <img class="embed-item" src="https://placehold.it/512x512" alt="Portrait of {{designer.first_name}} {{designer.last_name}}" />
           </div>
           <strong class="name pin-bl micro text-upper bold">{{designer.first_name}} {{designer.last_name | slice: 0 }}</strong>
           <div class="border-container absolute h-1 w-1 island-1-2">
