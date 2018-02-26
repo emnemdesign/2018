@@ -22,10 +22,10 @@
             <svg class="embed-item" viewBox="0 0 400 400">
               <filter id="pixelate" x="0" y="0">
                 <feFlood x="4" y="4" height="2" width="2" />
-                <feComposite width="20" height="20" />
+                <feComposite width="48" height="48" />
                 <feTile result="a" />
                 <feComposite in="SourceGraphic" in2="a" operator="in" />
-                <feMorphology operator="dilate" radius="10" />
+                <feMorphology operator="dilate" radius="24" />
               </filter>
               <image width="110%" height="110%" x="-5%" y="-5%" preserveAspectRatio="xMidYMid slice" xlink:href="https://grads.images.algonquindesign.ca/2018/portraits/test-portrait.png" />
             </svg>
