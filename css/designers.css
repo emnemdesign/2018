@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.designer {
+  background-color: #16B5B3;
+}
+
 .name {
   margin-bottom: calc(1.3rem + .325rem);
   margin-left: calc(1.3rem + .325rem);
@@ -30,6 +34,14 @@ select {
 select:focus {
   outline: none;
   box-shadow: 0 0 0 3px var(--color-focus);
+}
+
+canvas {
+  min-height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {

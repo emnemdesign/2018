@@ -1,36 +1,35 @@
-var $dataAll = $('[data-category]');
-var $dataBranding = $('[data-category*=branding]');
-var $dataIllustration = $('[data-category*=illustration]');
-var $dataMotion = $('[data-category*=motion]');
-var $dataPrint = $('[data-category*=print]');
-var $dataUxUi = $('[data-category*=ux-ui]');
-var $dataWeb = $('[data-category*=web]');
-var $all = $('.designer');
+var $All = $('[data-category] image');
+var $Branding = $('[data-category*=branding] image');
+var $Illustration = $('[data-category*=illustration] image');
+var $Motion = $('[data-category*=motion]');
+var $Print = $('[data-category*=print]');
+var $UxUi = $('[data-category*=ux-ui]');
+var $Web = $('[data-category*=web]');
 
 $('#select-specialty').on('change', function () {
-  $all.css('opacity', .5);
-
+  $All.attr("filter", "url(#pixelate)");
+  console.log($All);
   switch ($(this).val()) {
     case 'option-all':
-      $dataAll.css('opacity', 1);
+      $All.removeAttr("filter");
       break;
     case 'option-branding':
-      $dataBranding.css('opacity', 1);
+      $Branding.removeAttr("filter");
       break;
     case 'option-illustration':
-      $dataIllustration.css('opacity', 1);
+      $Illustration.children("image").removeAttr("filter");
       break;
     case 'option-motion':
-      $dataMotion.css('opacity', 1);
+      $Motion.children("image").removeAttr("filter");
       break;
     case 'option-print':
-      $dataPrint.css('opacity', 1);
+      $Print.children("image").removeAttr("filter");
       break;
     case 'option-ux-ui':
-      $dataUxUi.css('opacity', 1);
+      $UxUi.children("image").removeAttr("filter");
       break;
     case 'option-web':
-      $dataWeb.css('opacity', 1);
+      $Web.children("image").removeAttr("filter");
       break;
   }
 });

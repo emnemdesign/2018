@@ -2,7 +2,7 @@
   {% include section-header.html title="Designers" %}
 
   <div class="gutter push max-length-no-center">
-    <label class="text-upper bold micro teal push-1-8" for="filter">Specialty</label>
+    <label class="text-upper bold micro teal push-1-8" for="select-specialty">Specialty</label>
     <select class="milli" id="select-specialty">
       <option value="option-all">All</option>
       <option value="option-branding">Branding</option>
@@ -19,7 +19,16 @@
       <li class="designer unit xs-1-2 m-1-3 l-1-4 xl-1-6 relative" data-category="{{designer.specialty[0]}} {{designer.specialty[1]}}">
         <a class="designer-link block relative" href="{{site.baseurl}}/designers/{{ designer.name | replace: ' ', '-' | downcase }}">
           <div class="embed embed-1by1">
-            <img class="embed-item" src="https://grads.images.algonquindesign.ca/2018/portraits/test-portrait.png" alt="Portrait of {{designer.first_name}} {{designer.last_name}}" />
+            <svg class="embed-item" viewBox="0 0 400 400">
+              <filter id="pixelate" x="0" y="0">
+                <feFlood x="4" y="4" height="2" width="2" />
+                <feComposite width="48" height="48" />
+                <feTile result="a" />
+                <feComposite in="SourceGraphic" in2="a" operator="in" />
+                <feMorphology operator="dilate" radius="24" />
+              </filter>
+              <image width="110%" height="110%" x="-5%" y="-5%" preserveAspectRatio="xMidYMid slice" xlink:href="https://grads.images.algonquindesign.ca/2018/portraits/test-portrait.png" />
+            </svg>
           </div>
           <strong class="name pin-bl micro text-upper bold">{{designer.first_name}} {{designer.last_name | slice: 0 }}</strong>
           <div class="border-container absolute h-1 w-1 island-1-2">
