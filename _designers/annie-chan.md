@@ -4,6 +4,9 @@ name: Annie Chan
 first_name: Annie
 last_name: Chan
 specialization: Branding, UX/UI
+specialty:
+  - branding
+  - ux-ui
 email: anniechan.designs@gmail.com
 website: anniechan.ca
 behance_link: https://www.behance.net/chan0373add8?
