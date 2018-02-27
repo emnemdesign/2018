@@ -4,6 +4,9 @@ name: Hayley Capson
 first_name: Hayley
 last_name: Capson
 specialization: Branding, Motion
+specialty:
+  - branding
+  - motion
 email: hcapson@gmail.com
 website: hayleycapson.ca
 behance_link:

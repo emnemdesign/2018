@@ -4,6 +4,9 @@ name: Jenna Brady
 first_name: Jenna
 last_name: Brady
 specialization: Web, UX/UI
+specialty:
+  - web
+  - ux-ui
 email: design@jennabrady.ca
 website: jennabrady.ca
 behance_link:

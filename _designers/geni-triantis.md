@@ -4,6 +4,9 @@ name: Geni Triantis
 first_name: Geni
 last_name: Triantis
 specialization: Print, Illustration
+specialty:
+  - print 
+  - illustration
 email: hello@geni.graphics
 website: geni.graphics
 behance_link: https://www.behance.net/tria00071e4c

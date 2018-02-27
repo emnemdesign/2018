@@ -4,6 +4,9 @@ name: Nasrin Azarnoush
 first_name: Nasrin
 last_name: Azarnoush
 specialization: Motion, UX/UI
+specialty:
+  - motion
+  - ux-ui
 email: n.azarnoush@gmail.com
 website: nasrinarts.com
 behance_link:

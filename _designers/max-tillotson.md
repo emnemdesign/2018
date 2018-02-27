@@ -4,6 +4,9 @@ name: Max Tillotson
 first_name: Max
 last_name: Tillotson
 specialization: Branding, Motion
+specialty:
+  - branding
+  - motion
 email: ten.am@hotmail.com
 website: maxtill.ca
 behance_link:

@@ -1,9 +1,12 @@
 ---
-layout: profile 
+layout: profile
 name: Kait Moore
 first_name: Kait
 last_name: Moore
 specialization: Branding, Illustration
+specialty:
+  - branding
+  - illustration
 email: kaikeekat@gmail.com
 website: kaikeekat.ca
 behance_link: https://www.behance.net/kaikeekat

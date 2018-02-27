@@ -4,6 +4,9 @@ name: Cecilia Bleszynski
 first_name: Cecilia
 last_name: Bleszynski
 specialization: Motion, UX/UI
+specialty:
+  - motion
+  - ux-ui
 email: design@cylka.ca
 website: cylka.ca
 behance_link: https://www.behance.net/cylkadesign

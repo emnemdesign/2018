@@ -4,6 +4,9 @@ name: Sabrina Heideman
 first_name: Sabrina
 last_name: Heideman
 specialization: Branding, Print
+specialty:
+  - branding
+  - print
 email: sabrinaheideman@gmail.com
 website: sheideman.com
 behance_link:

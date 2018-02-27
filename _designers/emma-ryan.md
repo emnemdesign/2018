@@ -4,6 +4,9 @@ name: Emma Ryan
 first_name: Emma
 last_name: Ryan
 specialization: Print, Illustration
+specialty:
+  - print
+  - illustration
 email: e.g.ryan@outlook.com
 website: emmaryan.ca
 behance_link: https://www.behance.net/ryan02335f28

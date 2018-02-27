@@ -4,6 +4,9 @@ name: Katherine Van der Ploeg
 first_name: Katherine
 last_name: Van der Ploeg
 specialization: Print, UX/UI
+specialty:
+  - print
+  - ux-ui
 email: designs@katherinevanderploeg.ca
 website: katherinevanderploeg.ca
 behance_link:

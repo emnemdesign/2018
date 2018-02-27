@@ -4,6 +4,9 @@ name: Kayla Obritsch
 first_name: Kayla
 last_name: Obritsch
 specialization: Branding, Web
+specialty:
+  - branding
+  - web
 email: design@kaylaobritsch.ca
 website: kaylaobritsch.ca
 behance_link: https://www.behance.net/KaylaRoseO

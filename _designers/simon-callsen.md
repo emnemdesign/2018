@@ -4,6 +4,9 @@ name: Simon Callsen
 first_name: Simon
 last_name: Callsen
 specialization: Motion, UX/UI
+specialty:
+  - motion
+  - ux-ui
 email: simon.callsen@gmail.com
 website: www.scallsen.ca
 behance_link:

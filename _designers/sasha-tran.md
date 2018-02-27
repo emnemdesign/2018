@@ -4,6 +4,9 @@ name: Sasha Tran
 first_name: Hanh-Thao “Sasha”
 last_name: Tran
 specialization: Motion, UX/UI
+specialty:
+  - motion
+  - ux-ui
 email: ht.sasha.tran@gmail.com
 website: htsasha.ca
 behance_link: https://www.behance.net/htsashatran

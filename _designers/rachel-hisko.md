@@ -4,6 +4,8 @@ name: Rachel Hisko
 first_name: Rachel
 last_name: Hisko
 specialization: UX/UI
+specialty:
+  - ux-ui
 email: rachel@hiskodesigns.ca
 website: hiskodesigns.ca
 behance_link: https://www.behance.net/RHisko11

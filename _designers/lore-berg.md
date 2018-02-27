@@ -4,6 +4,9 @@ name: Lore Berg
 first_name: Lore
 last_name: Berg
 specialization: Branding, Web
+specialty:
+  - branding
+  - web
 email: connect@graphicsoflore.ca
 website: graphicsoflore.ca
 behance_link: https://www.behance.net/berg0215fb36
